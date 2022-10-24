@@ -28,8 +28,8 @@ defaultContentLanguageInSubdir = false
       alt_offset = "#CCCCCC"
       alt_text = "#202020"
       alt_text_offset = "#625c5c"
-      primary = "#2b3af7"
-      primary_offset = "#702bf7"
+      primary = "#009CAD"
+      primary_offset = "#0045AD"
       primary_text = "#ffffff"
       primary_text_offset = "#79bcff"
     [params.colors.dark]
