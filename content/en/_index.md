@@ -1,5 +1,5 @@
 ---
-title: "Hugo Advance"
+title: "Home"
 date: 2019-02-22
 description: "Advance is a multi-purpose premium Hugo theme. Modern design, clean code and highly configurable."
 header_transparent: true
