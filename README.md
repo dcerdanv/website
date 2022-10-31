@@ -3,13 +3,21 @@
 This repo will host the development of the new website for the CNIO
 Bioinformatics Unit.
 
+The idea is that this will only serve as a development repository: once we
+have the first working version of the page we'll create a new repository and
+this one will be archived, meaning that the history of this repo will not be
+included in the new one.
+
+For the sake of simplicity, in this exercise @tdido will be the code owner and will orchestrate the
+merging of all pull requests (PR).
+
 ## Development workflow
 
 1. Issue created, discussion about what/how to implement happens there.
 2. Issue is assigned to developer (by code owner or developer her/himself).
 3. Developer creates new branch (naming: [issue\_number]\_[name] e.g.
    10\_fix\_fontawesome)
-4. Developer creates pull request (PR) based on branch. Discussions on
+4. Developer creates PR based on branch. Discussions on
    code-level implementation details happen here.
 5. Once code is ready history is rewitten if necessary and changes are rebased
    into main.
