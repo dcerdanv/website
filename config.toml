@@ -1,4 +1,4 @@
-baseURL = "https://cnio-bu.github.io/website/"
+baseURL = "https://cnio-bu.github.io/website"
 title = "CNIO Bioinformatics Unit"
 theme = "hugo-advance"
 paginate = 3
