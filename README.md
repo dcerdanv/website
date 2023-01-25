@@ -38,7 +38,7 @@ Hugo Advance is a premium, multi-purpose Hugo theme.
 
 ### Installation
 
-Make sure you have Hugo installed - For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
+Make sure you have Hugo installed - For more information read the official [setup guide](//gohugo.io/installation/) of Hugo.
 
 ### Getting started
 
