@@ -1,6 +1,7 @@
 ---
 title: 'Gonzalo Gómez López'
 date: 2023-02-17T12:15:00+10:00
+draft: false
 weight: 2
 description: "Computational Biologist"
 thumbnail: 'images/team/Gomez_Gonzalo.png'

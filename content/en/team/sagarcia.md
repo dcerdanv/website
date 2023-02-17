@@ -1,6 +1,7 @@
 ---
 title: 'Santiago García'
 date: 2023-02-17T12:10:00+10:00
+draft: false
 weight: 2
 description: "PhD Candidate"
 thumbnail: 'images/team/Garcia_Santiago.jpg'

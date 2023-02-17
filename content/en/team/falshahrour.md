@@ -1,6 +1,7 @@
 ---
 title: 'Fátima Al-Shahrour'
 date: 2023-02-17T11:45:00+10:00
+draft: false
 weight: 1
 description: "Head of the Bioinformatics Unit"
 thumbnail: 'images/team/Al-Shahrour_Fatima.jpeg'

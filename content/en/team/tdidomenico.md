@@ -1,6 +1,7 @@
 ---
 title: 'Tomás Di Domenico'
 date: 2023-02-17T12:00:00+10:00
+draft: false
 weight: 2
 description: "Bioinformatician"
 thumbnail: 'images/team/Di-Domenico_Tomas.jpg'

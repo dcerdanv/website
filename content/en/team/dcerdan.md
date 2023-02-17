@@ -1,6 +1,7 @@
 ---
 title: 'Daniel Cerdán Vélez'
 date: 2023-02-17T11:55:00+10:00
+draft: false
 weight: 2
 description: "Bioinformatician"
 thumbnail: 'images/team/Cerdan_Daniel.jpg'
