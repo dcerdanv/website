@@ -1,6 +1,21 @@
 ## Changelog
 
-### Version 1.3.3 (Released Sep 12, 2022)
+### Version 1.4.1 (Released Jan 23, 2023)
+
+- Improve Google local fonts with more examples
+- Add email link to team bio
+- Improve control over SEO and OG meta tags. Ability to override the title, description and og meta tags on a per page basis via frontmatter. see `content/en/services/web-design.md` for an example. If overrides are not specified, the pages regular title, description and image fields are used as a fallback.
+
+```yaml
+meta: 
+  title: "Web Design Services"
+  description: "We offer the best range of web design services in the area"
+  og_title: "View our web design services"
+  og_image: "images/gen/services/service-12-large.webp"
+  og_description: "Learn about the web design services we offer. It encompasses many different skills and disciplines"
+```
+
+### Version 1.4 (Released Sep 12, 2022)
 
 - Tested with latest Hugo version v0.102.3
 - Update favicons

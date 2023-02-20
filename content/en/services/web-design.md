@@ -2,6 +2,12 @@
 title: "Web Design"
 description: "Design beautiful modern websites using the Jamstack."
 date: 2018-11-28T15:15:34+10:00
+meta: 
+  title: "Web Design Services"
+  description: "We offer the best range of web design services in the area"
+  og_title: "View our web design services"
+  og_image: "images/gen/services/service-12-large.webp"
+  og_description: "Learn about the web design services we offer. It encompasses many different skills and disciplines"
 menu:
   main:
     weight: 1
