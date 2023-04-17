@@ -4,7 +4,7 @@ linktitle: 'García'
 draft: false
 weight: 2
 description: "PhD Candidate"
-thumbnail: 'images/team/Garcia_Santiago.jpg'
+thumbnail: 'images/team/thumbnails/Garcia_Santiago.jpg'
 image: 'images/team/Garcia_Santiago.jpg'
 jobtitle: 'PhD Candidate'
 links:

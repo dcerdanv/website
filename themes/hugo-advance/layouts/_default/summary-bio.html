@@ -9,9 +9,6 @@
             <h2>{{ .Title }}</h2>
         </div>
         <div class="summary-jobtitle">{{ .Params.Jobtitle }}</div>
-        <div class="summary-description">
-            <p>{{ .Params.description }}</p>
-        </div>
         {{ if .Params.links }}
             <div class="summary-links">
                 {{ range .Params.links }}
