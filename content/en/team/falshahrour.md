@@ -3,7 +3,6 @@ title: 'Fátima Al-Shahrour'
 linktitle: 'Al-Shahrour'
 draft: false
 weight: 1
-description: "Head of the Bioinformatics Unit"
 thumbnail: 'images/team/thumbnails/Al-Shahrour_Fatima.jpeg'
 image: 'images/team/Al-Shahrour_Fatima.jpeg'
 jobtitle: 'Head of the Bioinformatics Unit'

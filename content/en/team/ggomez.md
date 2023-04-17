@@ -3,7 +3,6 @@ title: 'Gonzalo Gómez López'
 linktitle: 'Gómez'
 draft: false
 weight: 2
-description: "Computational Biologist"
 thumbnail: 'images/team/thumbnails/Gomez_Gonzalo.png'
 image: 'images/team/Gomez_Gonzalo.png'
 jobtitle: 'Computational Biologist'

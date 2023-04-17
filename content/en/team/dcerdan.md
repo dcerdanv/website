@@ -3,7 +3,6 @@ title: 'Daniel Cerdán Vélez'
 linktitle: 'Cerdan'
 draft: false
 weight: 2
-description: "Bioinformatician"
 thumbnail: 'images/team/thumbnails/Cerdan_Daniel.jpg'
 image: 'images/team/Cerdan_Daniel.jpg'
 jobtitle: 'Bioinformatician'

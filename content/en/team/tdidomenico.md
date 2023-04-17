@@ -3,7 +3,6 @@ title: 'Tomás Di Domenico'
 linktitle: 'Di Domenico'
 draft: false
 weight: 2
-description: "Bioinformatician"
 thumbnail: 'images/team/thumbnails/Di-Domenico_Tomas.jpg'
 image: 'images/team/Di-Domenico_Tomas.jpg'
 jobtitle: 'Bioinformatician'
