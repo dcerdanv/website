@@ -16,7 +16,7 @@
                     </div>
                     {{ if .Params.image }}
                         <div class="col-12 col-lg-12" style="max-height: 400px; overflow: hidden;">
-                            <img class="img-fluid" src={{ .Params.image | relURL }} />
+                            <img class="img-fluid" style="max-width:400px;" src={{ .Params.image | relURL }} />
                         </div>
                     {{ end }}
                 </div>
