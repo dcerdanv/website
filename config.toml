@@ -59,8 +59,10 @@ defaultContentLanguageInSubdir = false
   logo_invert_mobile = "images/logo/logo-invert-mobile.svg" # Mobile logo in white
 
 [params.seo]
+  meta_twitter_card = "summary"
   meta_twitter_site = "@zerostaticio"
   meta_twitter_creator = "@zerostaticio"
+  append_site_title = true                                   # appends the .Site.title to the <title> of all pages
 
 [params.footer]
   show_site_title = true
@@ -125,3 +127,4 @@ defaultContentLanguageInSubdir = false
   category = "categories"
   portfolio = "portfolio"
   author = "authors"
+  publications = "publications"
