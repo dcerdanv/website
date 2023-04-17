@@ -1,6 +1,6 @@
 ---
 title: 'Gonzalo Gómez López'
-linktitle: 'Gómez'
+linktitle: 'Gomez'
 draft: false
 weight: 2
 thumbnail: 'images/team/thumbnails/Gomez_Gonzalo.png'
