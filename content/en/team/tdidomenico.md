@@ -1,6 +1,6 @@
 ---
 title: 'Tomás Di Domenico'
-date: 2023-02-17T12:00:00+10:00
+linktitle: 'Di Domenico'
 draft: false
 weight: 2
 description: "Bioinformatician"

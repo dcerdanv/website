@@ -1,10 +1,10 @@
 ---
 title: 'Daniel Cerdán Vélez'
-date: 2023-02-17T11:55:00+10:00
+linktitle: 'Cerdan'
 draft: false
 weight: 2
 description: "Bioinformatician"
-thumbnail: 'images/team/Cerdan_Daniel.jpg'
+thumbnail: 'images/team/thumbnailCerdan_Daniel.jpg'
 image: 'images/team/Cerdan_Daniel.jpg'
 jobtitle: 'Bioinformatician'
 links:

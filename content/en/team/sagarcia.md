@@ -1,6 +1,6 @@
 ---
 title: 'Santiago García'
-date: 2023-02-17T12:10:00+10:00
+linktitle: 'García'
 draft: false
 weight: 2
 description: "PhD Candidate"

@@ -1,6 +1,6 @@
 ---
 title: 'Gonzalo Gómez López'
-date: 2023-02-17T12:15:00+10:00
+linktitle: 'Gómez'
 draft: false
 weight: 2
 description: "Computational Biologist"
