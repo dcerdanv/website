@@ -1,7 +1,7 @@
 <div class="summary summary-team {{ if .Params.thumbnail }}summary-has-thumbnail{{ end }} {{ if .Params.icon }}summary-has-icon{{ end }}">
     {{ if .Params.thumbnail }}
         <div class="summary-thumbnail">
-            <img src="{{ .Params.thumbnail | relURL }}"/>
+            <a href="{{ .Permalink }}"><img src="{{ .Params.thumbnail | relURL }}"/></a>
         </div>
     {{ end }}
     <div class="summary-content">
@@ -9,9 +9,6 @@
             <h2>{{ .Title }}</h2>
         </div>
         <div class="summary-jobtitle">{{ .Params.Jobtitle }}</div>
-        <div class="summary-description">
-            <p>{{ .Params.description }}</p>
-        </div>
         {{ if .Params.links }}
             <div class="summary-links">
                 {{ range .Params.links }}
