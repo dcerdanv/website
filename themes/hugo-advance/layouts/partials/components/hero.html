@@ -13,7 +13,7 @@ background-blend-mode: {{ $blend_mode }};">
                         <h1>{{ .title }}</h1>
                     {{ end }}
                     {{ if .description }}
-                        <p>{{ .description }}</p>
+                        <p>{{ .description | safeHTML }}</p>
                     {{ end }}
                 </div>
             </div>

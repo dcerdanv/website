@@ -5,15 +5,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>{{ block "title" . }}{{ if .Params.meta_title }}{{ .Params.meta_title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}{{ end }}</title>
+    {{ partial "seo/title.html" . }}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="{{ .Site.BaseURL }}favicon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.BaseURL }}images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.BaseURL }}images/favicon-16x16.png">
 
-    {{ with .Site.Params.fonts }}
+    {{ if .Site.Params.fonts.google_fonts }}
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="{{ .google_fonts }}" rel="stylesheet">
+        <link href="{{ .Site.Params.fonts.google_fonts }}" rel="stylesheet">
     {{ end }}
 
     {{ if .Site.IsServer }}
@@ -34,19 +34,11 @@
         </script>
     {{ end }}
 
+    {{ partial "seo/meta.html" . }}
+
     {{ block "header_css" . }}{{ end }}
+
     
-    {{ block "meta_tags" . }}
-        {{ if .Params.description }}<meta name="description" content="{{ .Params.description }}"/>{{ end }}
-        {{ if .Params.meta_title }}<meta property="og:title" content="{{ .Params.meta_title }}"/>{{ else }}<meta property="og:title" content="{{ .Title }}"/>{{ end }}
-        <meta property="og:type" content="website"/>
-        <meta property="og:url" content="{{ .Permalink }}"/>
-        {{ if .Params.image }}<meta property="og:image" content="{{ .Params.image | absURL }}"/>{{ end }}
-        {{ if .Params.description }}<meta property="og:description" content="{{ .Params.description }}"/>{{ end }}
-        <meta name="twitter:card" content="summary"/>
-        {{ if .Site.Params.seo.meta_twitter_site }}<meta name="twitter:site" content="{{ .Site.Params.seo.meta_twitter_site }}"/>{{ end }}
-        {{ if .Site.Params.seo.meta_twitter_creator }}<meta name="twitter:creator" content="{{ .Site.Params.seo.meta_twitter_creator }}"/>{{ end }}
-    {{ end }}
 
 </head>
 
@@ -89,7 +81,7 @@
 
     {{ block "footer_js" . }}{{ end }}
 
-    {{ partial "google-analytics.html" . }}
+    {{ partial "seo/google-analytics.html" . }}
 
 </body>
 </html>
