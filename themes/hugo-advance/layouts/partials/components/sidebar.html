@@ -5,7 +5,7 @@
     <div class="sidebar">
         <h2>{{ humanize .Section }}</h2>
         <ul>
-            {{ range first 6 (sort $pages ".Params.weight") }}
+            {{ range first 6 (sort $pages "Name" "desc") }}
                 <li><a {{ if eq $url .Permalink }}class="active"{{ end }} href="{{ .Permalink }}">{{ .Title }}</a></li>
             {{ end }}
         </ul>
