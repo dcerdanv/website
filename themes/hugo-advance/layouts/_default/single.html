@@ -12,11 +12,11 @@
                 <div class="row">
                     <div class="col-12 col-lg-8">
                         <h1>{{ .Title }}</h1>
-                        <h2>{{ .Params.description }}</h2>
+                        <h2>{{ .Params.jobtitle }}</h2>
                     </div>
                     {{ if .Params.image }}
                         <div class="col-12 col-lg-12" style="max-height: 400px; overflow: hidden;">
-                            <img class="img-fluid" src={{ .Params.image | relURL }} />
+                            <img class="img-fluid" style="max-width:400px;" src={{ .Params.image | relURL }} />
                         </div>
                     {{ end }}
                 </div>
